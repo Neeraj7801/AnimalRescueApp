@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- This color will be the background of the circle -->
+    <corners android:radius="50dp" />
+    <!-- Set the radius to 50% to create a perfect circle -->
+</shape>

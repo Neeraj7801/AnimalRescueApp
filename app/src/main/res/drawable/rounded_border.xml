@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Border ka color -->
+    <corners android:radius="20dp"/>
+    <gradient
+        android:startColor="#A1C4FD"
+        android:centerColor="#FFFFFF"
+        android:endColor="#C2E9FB"
+        android:angle="45"
+        android:gradientRadius="50%"
+        android:centerX="0.5"
+        android:centerY="0.5"/><!-- Border ke kone ka radius -->
+    <!-- Border ka thickness aur color -->
+</shape>
