@@ -45,9 +45,11 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("androidx.drawerlayout:drawerlayout:1.1.1")
     implementation ("androidx.recyclerview:recyclerview:1.2.1")
+    implementation ("com.google.android.gms:play-services-location:18.0.0")
 }
