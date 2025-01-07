@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HelperViewActivity">
+    tools:context=".helper_view">
 
     <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
@@ -67,7 +67,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:icon="@drawable/ic_location"
+        android:icon="@drawable/location"
         android:iconGravity="textStart"
         android:text="Use Current Location"
         app:layout_constraintTop_toBottomOf="@id/uploaded_image"
