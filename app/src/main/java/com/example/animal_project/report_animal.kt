@@ -42,10 +42,10 @@ class report_animal : AppCompatActivity() {
         // Initialize views
         spinnerAnimalType = findViewById(R.id.spinnerAnimalType)
         radioGroupCondition = findViewById(R.id.radioGroupCondition)
-        editTextLocation = findViewById(R.id.editTextLocation)
-        buttonPickLocation = findViewById(R.id.buttonPickLocation)
-        editTextDescription = findViewById(R.id.editTextDescription)
-        buttonUploadPhoto = findViewById(R.id.upload_image_button)
+//        editTextLocation = findViewById(R.id.editTextLocation)
+//        buttonPickLocation = findViewById(R.id.buttonPickLocation)
+//        editTextDescription = findViewById(R.id.editTextDescription)
+//        buttonUploadPhoto = findViewById(R.id.upload_image_button)
         buttonSubmit = findViewById(R.id.buttonSubmit)
         ivUploadedPhoto = findViewById(R.id.upload_image_button)
 

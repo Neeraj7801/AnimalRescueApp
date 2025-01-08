@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,18 +22,14 @@
             android:layout_marginBottom="16dp"
             android:textColor="@color/black" />
 
-
         <EditText
             android:id="@+id/full_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name"
             android:inputType="textPersonName"
-            android:drawableLeft="@drawable/ic_user"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/email"
@@ -40,11 +37,8 @@
             android:layout_height="wrap_content"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:drawableLeft="@drawable/ic_email"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/phone_number"
@@ -52,11 +46,8 @@
             android:layout_height="wrap_content"
             android:hint="Phone Number"
             android:inputType="phone"
-            android:drawableLeft="@drawable/ic_phone"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/address"
@@ -64,11 +55,8 @@
             android:layout_height="wrap_content"
             android:hint="Address"
             android:inputType="textPostalAddress"
-            android:drawableLeft="@drawable/ic_address"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/pincode"
@@ -76,11 +64,8 @@
             android:layout_height="wrap_content"
             android:hint="Pincode"
             android:inputType="number"
-            android:drawableLeft="@drawable/ic_pincode"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/password"
@@ -88,20 +73,16 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
-            android:drawableLeft="@drawable/ic_password"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
-
 
         <EditText
             android:id="@+id/confirm_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"android:hint="Confirm Password"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
             android:inputType="textPassword"
-            android:drawableLeft="@drawable/ic_password"
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
             android:layout_marginBottom="12dp" />
 
         <LinearLayout
@@ -125,7 +106,6 @@
                 android:textColor="@color/black" />
         </LinearLayout>
 
-
         <Button
             android:id="@+id/register_button"
             android:layout_width="match_parent"
@@ -133,7 +113,6 @@
             android:text="Register"
             android:textSize="16sp"
             android:padding="12dp"
-            android:backgroundTint="@color/blue"
             android:textColor="@color/white"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="8dp" />

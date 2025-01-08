@@ -19,12 +19,12 @@ class rescuerhomepage : AppCompatActivity() {
         // Initialize DrawerLayout and NavigationView
         drawerLayout = findViewById(R.id.drawer_layout)
         val navigationView: NavigationView = findViewById(R.id.navigation_view)
-        val menuButton: ImageButton = findViewById(R.id.menu_button)
+//        val menuButton: ImageButton = findViewById(R.id.menu_button)
 
         // Open drawer on menu button click
-        menuButton.setOnClickListener {
-            drawerLayout.openDrawer(GravityCompat.START)
-        }
+//        menuButton.setOnClickListener {
+//            drawerLayout.openDrawer(GravityCompat.START)
+//        }
 
         // Handle navigation item clicks
         navigationView.setNavigationItemSelectedListener { menuItem ->

@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId = "com.example.animal_project"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -29,27 +29,43 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
+    // Core Android libraries
+    implementation(libs.androidx.core.ktx.v1101)
+    implementation(libs.androidx.appcompat.v161)
     implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-    implementation(libs.firebase.auth)
-    implementation(libs.firebase.database)
+    implementation(libs.androidx.constraintlayout.v214)
+
+    // Firebase
+    implementation(libs.firebase.auth.v2211)
+    implementation(libs.firebase.database.v2022)
+
+    // Navigation
+    implementation(libs.androidx.navigation.fragment.ktx.v253)
+    implementation(libs.androidx.navigation.ui.ktx.v253)
+
+    // DrawerLayout and RecyclerView
+    implementation(libs.androidx.drawerlayout)
+    implementation(libs.androidx.recyclerview.v131)
+
+    // Location Services
+    implementation(libs.play.services.location.v2101)
+
+    // Unit Testing
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    implementation ("androidx.drawerlayout:drawerlayout:1.1.1")
-    implementation ("androidx.recyclerview:recyclerview:1.2.1")
-    implementation ("com.google.android.gms:play-services-location:18.0.0")
+
+    // Android Instrumentation Testing
+    androidTestImplementation(libs.androidx.junit.v115)
+    androidTestImplementation(libs.androidx.espresso.core.v351)
 }
